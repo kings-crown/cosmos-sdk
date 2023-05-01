@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/bank"
 
-	"github.com/yourusername/yourproject/x/auction/keeper"
-	"github.com/yourusername/yourproject/x/auction/types"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/keeper"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/types"
 )
 
 func NewHandler(k keeper.Keeper, bk bank.Keeper) sdk.Handler {

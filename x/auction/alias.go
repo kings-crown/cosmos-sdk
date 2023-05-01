@@ -1,9 +1,10 @@
 package auction
 
 import (
-	"github.com/your-github-username/your-chain-name/x/auction/client/cli"
-	"github.com/your-github-username/your-chain-name/x/auction/client/rest"
-	"github.com/your-github-username/your-chain-name/x/auction/types"
+	"github.com/cosmos/cosmos-sdk/x/slashing/keeper"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/client/cli"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/client/rest"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/types"
 )
 
 const (

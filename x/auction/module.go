@@ -13,10 +13,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/yourusername/yourproject/x/auction/client/cli"
-	"github.com/yourusername/yourproject/x/auction/client/rest"
-	"github.com/yourusername/yourproject/x/auction/keeper"
-	"github.com/yourusername/yourproject/x/auction/types"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/client/cli"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/client/rest"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/keeper"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/types"
 )
 
 var (

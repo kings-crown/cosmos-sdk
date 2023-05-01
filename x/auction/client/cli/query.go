@@ -1,12 +1,11 @@
 package cli
 
 import (
-	"fmt"
+	"https://github.com/kings-crown/cosmos-sdk/tree/main/x/auction/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
-	"github.com/your-github-username/your-chain-name/x/auction/types"
 )
 
 // GetQueryCmd returns the cli query commands for the auction module

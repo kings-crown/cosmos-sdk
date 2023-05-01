@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
-	"github.com/your-github-username/your-chain-name/x/auction/types"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/types"
 )
 
 const (

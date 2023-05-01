@@ -3,10 +3,11 @@ package keeper
 import (
 	"fmt"
 
+	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/yourusername/yourproject/x/auction/types"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/types"
 )
 
 type Keeper struct {

@@ -15,9 +15,9 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 
-	"github.com/yourusername/yourproject/x/auction/client/cli"
-	"github.com/yourusername/yourproject/x/auction/keeper"
-	"github.com/yourusername/yourproject/x/auction/types"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/client/cli"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/keeper"
+	"github.com/kings-crown/cosmos-sdk/tree/main/x/auction/types"
 )
 
 // AppModuleBasic defines the basic application module used by the auction module.
